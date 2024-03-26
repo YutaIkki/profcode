@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">HOME</a> |
+            <a href="musicas.html">Musicas para Programação</a> |
+            <a href="aulas.html">Aulas Grátis</a> |
+            <a href="planos.html">Planos</a> |
+            <a href="contatos.html">Contatos</a>
+        </nav>
+    </header>
+    <br>
+    <main>
+        <H2>Planos</H2>
+       <hr>
+        <h3>Plano Grátis</h3>
+        <ul>
+            <li>Aulas de Videos</li>
+            <li>Material PDF</li>
+            <li>1 pacote</li>
+            <li>Programa Básico</li>
+            <li>Diploma Digital</li>
+        </ul>
+        <hr>
+        <h3>Plano Mensal</h3>
+        <ul>
+            <li>Aulas de Videos</li>
+            <li>Material PDF</li>
+            <li>3 pacote</li>
+            <li>Programa Avançado</li>
+            <li>Diploma Dgital e Físico</li>
+        </ul>
+        <hr>
+        <h3>Plano Trimestral</h3>
+        <ul>
+            <li>Aulas de Videos</li>
+            <li>Material PDF</li>
+            <li>3 pacote</li>
+            <li>Programa Avançado</li>
+            <li>Diploma Dgital e Físico</li>
+        </ul>
+        <hr>
+        <h3>Plano Semestral</h3>
+        <ul>
+            <li>Aulas de Videos</li>
+            <li>Material PDF</li>
+            <li>3 pacote</li>
+            <li>Programa Avançado</li>
+            <li>Diploma Dgital e Físico</li>
+        </ul>
+        <hr>
+        <h3>Plano Anual</h3>
+        <ul>
+            <li>Aulas de Videos e Presencial</li>
+            <li>Material PDF e Apostilas</li>
+            <li>4 pacote</li>
+            <li>Programa Avançado</li>
+            <li>Diploma Dgital e Físico</li>
+        </ul>
+        <hr>
+        <form action="processar_pacote.php" method="post">
+            <input type="radio" id="gratis" name="pacote" value="Grátis">
+            <label for="gratis">Grátis</label><br>
+        
+            <input type="radio" id="mensal" name="pacote" value="Mensal">
+            <label for="mensal">Mensal R$150,00</label><br>
+        
+            <input type="radio" id="trimestral" name="pacote" value="Trimestral">
+            <label for="trimestral">Trimestral R$429,99</label><br>
+        
+            <input type="radio" id="semestral" name="pacote" value="Semestral">
+            <label for="semestral">Semestral R$829,99</label><br>
+        
+            <input type="radio" id="anual" name="pacote" value="Anual">
+            <label for="anual">Anual R$1660,00</label><br><br>
+        
+            <input type="submit" value="Selecionar Pacote">
+        </form>
+    </main>
